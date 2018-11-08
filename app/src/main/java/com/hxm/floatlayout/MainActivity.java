@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         flowLayout = findViewById(R.id.flow_layout);
+        flowLayout.setMultiSelectNum(1);
         flowLayout.setAdapter(new TagAdapter(this));
     }
 }
