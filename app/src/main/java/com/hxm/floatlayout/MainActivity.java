@@ -1,7 +1,7 @@
 package com.hxm.floatlayout;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.hxm.flowlayoutlib.FlowLayout;
 
@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         flowLayout = findViewById(R.id.flow_layout);
-        flowLayout.setMultiSelectNum(1);
-        flowLayout.setAdapter(new TagAdapter(this));
+        flowLayout.setAdapter(new TagAdapter(this), 5);
     }
 }

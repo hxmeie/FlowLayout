@@ -20,6 +20,7 @@ public class TagAdapter extends FlowAdapter {
 
     public TagAdapter(Context context) {
         this.context = context;
+
     }
 
     @Override

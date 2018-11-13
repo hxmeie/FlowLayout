@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="left"
-        app:multiSelectNum="0"
         app:horizontalSpacing="5dp"
+        app:limitNum="3"
+        app:selectType="limit"
         app:verticalSpacing="5dp" />
 </LinearLayout>

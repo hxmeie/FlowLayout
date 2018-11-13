@@ -11,7 +11,14 @@
         <attr name="horizontalSpacing" format="dimension" />
         <!--垂直方向间距-->
         <attr name="verticalSpacing" format="dimension" />
-        <!--默认0没有选中事件,-1不限制选中数量，1为单选，大于1为多选-->
-        <attr name="multiSelectNum" format="integer" />
+        <!--限制多选数量-->
+        <attr name="limitNum" format="integer" />
+        <!--选中类型-->
+        <attr name="selectType" format="enum">
+            <enum name="limit" value="0" />
+            <enum name="single" value="1" />
+            <enum name="multi" value="2" />
+            <enum name="none" value="3" />
+        </attr>
     </declare-styleable>
 </resources>

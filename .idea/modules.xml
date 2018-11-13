@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/FloatLayout.iml" filepath="$PROJECT_DIR$/FloatLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FlowLayout.iml" filepath="$PROJECT_DIR$/.idea/FlowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flowlayoutlib/flowlayoutlib.iml" filepath="$PROJECT_DIR$/flowlayoutlib/flowlayoutlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/flowlayoutlib/flowlayoutlib.iml" filepath="$PROJECT_DIR$/flowlayoutlib/flowlayoutlib.iml" />
     </modules>
   </component>
